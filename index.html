@@ -8,7 +8,69 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="assets/img/Tchouri-Logo.png">
 </head>
-<body>
-    <header></header>
+<body class="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+    <header class="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
+
+            <div class="flex items-center gap-2">
+                <img class="w-9 h-9 object-contain" src="assets/img/Tchouri-Logo.png" alt="Le Logo de la Marketplace">
+                <span class="font-bold text-lg text-[#14375f]">Tchouri</span>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium text-gray-600">
+                <a href="#" class="text-[#14375f] font-semibold transition-colors">Accueil</a>
+                <a href="categorie.html" class="hover:text-[#14375f] transition-colors">Catalogue</a>
+                <a href="contact.html" class="hover:text-[#14375f]">Contacts</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="#" class="hidden sm:inline-block bg-[#fdc62d] text-[#14375f] text-xs font-bold px-3 py-2 rounded-lg hover:bg-opacity-90 transition-all">Mon Panier</a>
+                <button id="Menu" class="md:hidden p-2 text-gray-600 hover:text-[#14375f] focus:outline-none" aria-label="Menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </header>
+    <main>
+    </main>
+    <footer class="bg-white border-t border-gray-200 mt-auto py-4 px-4 pb-[calc(1rem+env(safe-area-inset-bottom))] text-center text-xs test-gray-400">
+        <div>
+            <p>Newsletter</p>
+            <p>Recevoir des informations sur les offres les plus recentes:</p>
+            <label for="email">Entrer votre email</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Valider</button>
+        </div>
+        <div>
+            <p>Liens Rapides</p>
+            <ol>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ol>
+        </div>
+        <div>
+            <p>Reseaux Sociaux</p>
+            <ol>
+                <li><a>Intagram</a></li>
+                <li><a>X.com</a></li>
+                <li><a>LinkedIn</a></li>
+            </ol>
+        </div>
+        <div>
+            <p>Adresses</p>
+            <p>123 Avenue Tombalbaye - N'Djamena (Tchad)</p>
+            <p>+235 66 06 10 86</p>
+            <p>information@tchouri.td</p>
+            <p>www.tchouri.td</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+            <p>Icones RS</p>
+            <p>¤ 2026 All rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
