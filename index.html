@@ -34,7 +34,41 @@
 
         </div>
     </header>
-    <main>
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 py-6 grid grid-cols-1 ls:grid-cols-4 gap-6">
+
+        <section class="lg:col-span-3 space-y-4">
+
+            <div class="flex items-center justify-between">
+                <h1 class="text-xl font-bold text-[#14375f]">Nos produits</h1>
+            </div>
+
+            <div id="catalog-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="border border-dashed border-gray-300 rounded-2xl p-6 text-center text-gray-400 text-xs col-span-full py-12">
+                    Le catalogue s'affichera ici !!!
+                </div>
+            </div>
+
+        </section>
+
+        <aside class="lg:col-span-1">
+            <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm sticky top-20 space-y-4">
+                <h2 class="font-bold text-base text-[#14375f]">Mon panier</h2>
+
+                <div id="card-drop-zone" class="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center text-gray-400 text-xs bg-gray-50 transition-all">
+                    Glissez un article au parnier
+                </div>
+
+                <div class="space-y-2 text-xs text-gray-600">
+                    <p class="text-center text-gray-400 py-2">Votre panier est vide</p>
+                </div>
+
+                <div class="border-t border-gray-100 pt-3 flex items-center justify-between font-bold text-sm text-[#14375f]">
+                    <span>Total :</span>
+                    <span>0.00 FCFA</span>
+                </div>
+            </div>
+        </aside>
+
     </main>
     <footer class="bg-white border-t border-gray-200 mt-auto py-8 px-4 pb-[calc(2rem+env(safe-area-inset-bottom))] text-sm text-gray-600">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
