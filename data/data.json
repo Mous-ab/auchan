@@ -1,3 +1,355 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Mil décortiqué du Sahel",
+            "category": "Épicerie & Alimentation",
+            "price": 2500,
+            "image": "assets/img/products/product-01.jpg",
+            "description": "Céréale appréciée dans plusieurs cuisines sahéliennes.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 2,
+            "name": "Riz parfumé",
+            "category": "Épicerie & Alimentation",
+            "price": 8500,
+            "image": "assets/img/products/product-02.jpg",
+            "description": "Riz pour les repas du quotidien.",
+            "origin": "Asie"
+        },
+        {
+            "id": 3,
+            "name": "Dattes du désert",
+            "category": "Épicerie & Alimentation",
+            "price": 4200,
+            "image": "assets/img/products/product-03.jpg",
+            "description": "Dattes séchées à déguster en collation.",
+            "origin": "Sahel"
+        },
+        {
+            "id": 4,
+            "name": "Pâte d'arachide",
+            "category": "Épicerie & Alimentation",
+            "price": 1800,
+            "image": "assets/img/products/product-04.jpg",
+            "description": "Pâte d'arachide pour sauces et préparations.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 5,
+            "name": "Thé vert",
+            "category": "Épicerie & Alimentation",
+            "price": 2200,
+            "image": "assets/img/products/product-05.jpg",
+            "description": "Thé en feuilles pour infusion.",
+            "origin": "Chine"
+        },
+        {
+            "id": 6,
+            "name": "Miel naturel",
+            "category": "Épicerie & Alimentation",
+            "price": 5500,
+            "image": "assets/img/products/product-06.jpg",
+            "description": "Miel conditionné en pot.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 7,
+            "name": "Couscous de manioc",
+            "category": "Épicerie & Alimentation",
+            "price": 3000,
+            "image": "assets/img/products/product-07.jpg",
+            "description": "Semoule de manioc pour accompagner les plats.",
+            "origin": "Afrique centrale"
+        },
+        {
+            "id": 8,
+            "name": "Huile d'olive",
+            "category": "Épicerie & Alimentation",
+            "price": 7500,
+            "image": "assets/img/products/product-08.jpg",
+            "description": "Huile végétale pour cuisine et assaisonnement.",
+            "origin": "Maroc"
+        },
+        {
+            "id": 9,
+            "name": "Smartphone Samsung Galaxy",
+            "category": "Électronique",
+            "price": 145000,
+            "image": "assets/img/products/product-09.jpg",
+            "description": "Smartphone Android pour les usages quotidiens.",
+            "origin": "Corée du Sud"
+        },
+        {
+            "id": 10,
+            "name": "Écouteurs sans fil",
+            "category": "Électronique",
+            "price": 18000,
+            "image": "assets/img/products/product-10.jpg",
+            "description": "Écouteurs Bluetooth avec boîtier de recharge.",
+            "origin": "Chine"
+        },
+        {
+            "id": 11,
+            "name": "Téléviseur LED 43 pouces",
+            "category": "Électronique",
+            "price": 210000,
+            "image": "assets/img/products/product-11.jpg",
+            "description": "Téléviseur LED pour le salon.",
+            "origin": "International"
+        },
+        {
+            "id": 12,
+            "name": "Enceinte Bluetooth portable",
+            "category": "Électronique",
+            "price": 24000,
+            "image": "assets/img/products/product-12.jpg",
+            "description": "Enceinte compacte pour écouter de la musique.",
+            "origin": "Chine"
+        },
+        {
+            "id": 13,
+            "name": "Batterie externe 20 000 mAh",
+            "category": "Électronique",
+            "price": 16000,
+            "image": "assets/img/products/product-13.jpg",
+            "description": "Batterie externe pour recharger les appareils mobiles.",
+            "origin": "Chine"
+        },
+        {
+            "id": 14,
+            "name": "Montre connectée",
+            "category": "Électronique",
+            "price": 32000,
+            "image": "assets/img/products/product-14.jpg",
+            "description": "Montre connectée avec suivi d'activité.",
+            "origin": "International"
+        },
+        {
+            "id": 15,
+            "name": "Lampe solaire rechargeable",
+            "category": "Électronique",
+            "price": 12500,
+            "image": "assets/img/products/product-15.jpg",
+            "description": "Lampe rechargeable adaptée aux besoins d'éclairage autonome.",
+            "origin": "Maroc"
+        },
+        {
+            "id": 16,
+            "name": "Ordinateur portable HP",
+            "category": "Informatique",
+            "price": 420000,
+            "image": "assets/img/products/product-16.jpg",
+            "description": "Ordinateur portable pour études et travail.",
+            "origin": "États-Unis"
+        },
+        {
+            "id": 17,
+            "name": "Souris sans fil",
+            "category": "Informatique",
+            "price": 7500,
+            "image": "assets/img/products/product-17.jpg",
+            "description": "Souris optique sans fil.",
+            "origin": "Chine"
+        },
+        {
+            "id": 18,
+            "name": "Clavier AZERTY USB",
+            "category": "Informatique",
+            "price": 9500,
+            "image": "assets/img/products/product-18.jpg",
+            "description": "Clavier filaire au format AZERTY.",
+            "origin": "International"
+        },
+        {
+            "id": 19,
+            "name": "Disque SSD externe 1 To",
+            "category": "Informatique",
+            "price": 68000,
+            "image": "assets/img/products/product-19.jpg",
+            "description": "Stockage externe pour fichiers et sauvegardes.",
+            "origin": "International"
+        },
+        {
+            "id": 20,
+            "name": "Clé USB 64 Go",
+            "category": "Informatique",
+            "price": 4500,
+            "image": "assets/img/products/product-20.jpg",
+            "description": "Clé USB pour transporter des fichiers.",
+            "origin": "Chine"
+        },
+        {
+            "id": 21,
+            "name": "Routeur Wi-Fi",
+            "category": "Informatique",
+            "price": 28000,
+            "image": "assets/img/products/product-21.jpg",
+            "description": "Routeur sans fil pour réseau domestique.",
+            "origin": "International"
+        },
+        {
+            "id": 22,
+            "name": "Marmite en aluminium",
+            "category": "Maison & Cuisine",
+            "price": 12000,
+            "image": "assets/img/products/product-22.jpg",
+            "description": "Ustensile de cuisson pour la cuisine familiale.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 23,
+            "name": "Théière marocaine",
+            "category": "Maison & Cuisine",
+            "price": 18500,
+            "image": "assets/img/products/product-23.jpg",
+            "description": "Théière métallique pour préparer et servir le thé.",
+            "origin": "Maroc"
+        },
+        {
+            "id": 24,
+            "name": "Mixeur électrique",
+            "category": "Maison & Cuisine",
+            "price": 35000,
+            "image": "assets/img/products/product-24.jpg",
+            "description": "Appareil pour mixer fruits et préparations.",
+            "origin": "International"
+        },
+        {
+            "id": 25,
+            "name": "Ventilateur sur pied",
+            "category": "Maison & Cuisine",
+            "price": 42000,
+            "image": "assets/img/products/product-25.jpg",
+            "description": "Ventilateur électrique pour rafraîchir une pièce.",
+            "origin": "International"
+        },
+        {
+            "id": 26,
+            "name": "Service de table 18 pièces",
+            "category": "Maison & Cuisine",
+            "price": 26000,
+            "image": "assets/img/products/product-26.jpg",
+            "description": "Ensemble d'assiettes et de bols.",
+            "origin": "Turquie"
+        },
+        {
+            "id": 27,
+            "name": "Natte tissée",
+            "category": "Maison & Cuisine",
+            "price": 9000,
+            "image": "assets/img/products/product-27.jpg",
+            "description": "Natte pour la maison ou les moments de détente.",
+            "origin": "Sahel"
+        },
+        {
+            "id": 28,
+            "name": "Gourde isotherme",
+            "category": "Maison & Cuisine",
+            "price": 11000,
+            "image": "assets/img/products/product-28.jpg",
+            "description": "Gourde réutilisable pour conserver une boisson.",
+            "origin": "International"
+        },
+        {
+            "id": 29,
+            "name": "Boubou traditionnel",
+            "category": "Mode & Accessoires",
+            "price": 28000,
+            "image": "assets/img/products/product-29.jpg",
+            "description": "Tenue ample inspirée des vêtements traditionnels sahéliens.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 30,
+            "name": "Chèche en coton",
+            "category": "Mode & Accessoires",
+            "price": 8500,
+            "image": "assets/img/products/product-30.jpg",
+            "description": "Étoffe légère inspirée des usages vestimentaires du Sahara.",
+            "origin": "Sahel"
+        },
+        {
+            "id": 31,
+            "name": "Sac à dos urbain",
+            "category": "Mode & Accessoires",
+            "price": 22000,
+            "image": "assets/img/products/product-31.jpg",
+            "description": "Sac à dos pour les déplacements et les études.",
+            "origin": "International"
+        },
+        {
+            "id": 32,
+            "name": "Sandales en cuir",
+            "category": "Mode & Accessoires",
+            "price": 14000,
+            "image": "assets/img/products/product-32.jpg",
+            "description": "Sandales artisanales en cuir.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 33,
+            "name": "Montre classique",
+            "category": "Mode & Accessoires",
+            "price": 19500,
+            "image": "assets/img/products/product-33.jpg",
+            "description": "Montre analogique au style sobre.",
+            "origin": "International"
+        },
+        {
+            "id": 34,
+            "name": "Lunettes de soleil",
+            "category": "Mode & Accessoires",
+            "price": 12500,
+            "image": "assets/img/products/product-34.jpg",
+            "description": "Lunettes de soleil pour un usage quotidien.",
+            "origin": "International"
+        },
+        {
+            "id": 35,
+            "name": "Savon noir",
+            "category": "Beauté & Hygiène",
+            "price": 3500,
+            "image": "assets/img/products/product-35.jpg",
+            "description": "Savon traditionnel pour les soins du corps.",
+            "origin": "Maroc"
+        },
+        {
+            "id": 36,
+            "name": "Beurre de karité",
+            "category": "Beauté & Hygiène",
+            "price": 5000,
+            "image": "assets/img/products/product-36.jpg",
+            "description": "Beurre végétal utilisé dans les soins de la peau.",
+            "origin": "Afrique de l'Ouest"
+        },
+        {
+            "id": 37,
+            "name": "Huile de baobab",
+            "category": "Beauté & Hygiène",
+            "price": 6500,
+            "image": "assets/img/products/product-37.jpg",
+            "description": "Huile cosmétique présentée en flacon.",
+            "origin": "Sahel"
+        },
+        {
+            "id": 38,
+            "name": "Shampoing doux",
+            "category": "Beauté & Hygiène",
+            "price": 4200,
+            "image": "assets/img/products/product-38.jpg",
+            "description": "Shampoing pour l'hygiène capillaire.",
+            "origin": "International"
+        },
+        {
+            "id": 39,
+            "name": "Lotion hydratante",
+            "category": "Beauté & Hygiène",
+            "price": 7800,
+            "image": "assets/img/products/product-39.jpg",
+            "description": "Lotion pour le soin quotidien de la peau.",
+            "origin": "International"
         },
         {
             "id": 40,
