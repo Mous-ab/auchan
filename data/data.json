@@ -1,0 +1,102 @@
+        },
+        {
+            "id": 40,
+            "name": "Parfum",
+            "category": "Beauté & Hygiène",
+            "price": 22000,
+            "image": "assets/img/products/product-40.jpg",
+            "description": "Eau de parfum en flacon.",
+            "origin": "France"
+        },
+        {
+            "id": 41,
+            "name": "Sac en cuir artisanal",
+            "category": "Terroir & Artisanat sahélien",
+            "price": 32000,
+            "image": "assets/img/products/product-41.jpg",
+            "description": "Sac fabriqué dans un style artisanal sahélien.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 42,
+            "name": "Panier tressé traditionnel",
+            "category": "Terroir & Artisanat sahélien",
+            "price": 9500,
+            "image": "assets/img/products/product-42.jpg",
+            "description": "Panier tressé à usage décoratif ou domestique.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 43,
+            "name": "Tissu traditionnel",
+            "category": "Terroir & Artisanat sahélien",
+            "price": 18000,
+            "image": "assets/img/products/product-43.jpg",
+            "description": "Étoffe inspirée des motifs textiles de la région.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 44,
+            "name": "Bracelet artisanal",
+            "category": "Terroir & Artisanat sahélien",
+            "price": 6000,
+            "image": "assets/img/products/product-44.jpg",
+            "description": "Bracelet réalisé dans un style artisanal local.",
+            "origin": "Sahel"
+        },
+        {
+            "id": 45,
+            "name": "Poterie décorative",
+            "category": "Terroir & Artisanat sahélien",
+            "price": 14500,
+            "image": "assets/img/products/product-45.jpg",
+            "description": "Objet décoratif inspiré des savoir-faire de poterie.",
+            "origin": "Tchad"
+        },
+        {
+            "id": 46,
+            "name": "Calebasse décorée",
+            "category": "Terroir & Artisanat sahélien",
+            "price": 7500,
+            "image": "assets/img/products/product-46.jpg",
+            "description": "Calebasse décorative travaillée à la main.",
+            "origin": "Sahel"
+        },
+        {
+            "id": 47,
+            "name": "Ballon de football",
+            "category": "Sport & Loisirs",
+            "price": 12500,
+            "image": "assets/img/products/product-47.jpg",
+            "description": "Ballon pour entraînement et loisirs.",
+            "origin": "International"
+        },
+        {
+            "id": 48,
+            "name": "Tapis de prière",
+            "category": "Sport & Loisirs",
+            "price": 6500,
+            "image": "assets/img/products/product-48.jpg",
+            "description": "Tapis individuel pour la pratique religieuse.",
+            "origin": "Turquie"
+        },
+        {
+            "id": 49,
+            "name": "Jeu de société africain",
+            "category": "Sport & Loisirs",
+            "price": 8000,
+            "image": "assets/img/products/product-49.jpg",
+            "description": "Jeu de stratégie inspiré des jeux traditionnels africains.",
+            "origin": "Afrique"
+        },
+        {
+            "id": 50,
+            "name": "Vélo tout chemin",
+            "category": "Sport & Loisirs",
+            "price": 185000,
+            "image": "assets/img/products/product-50.jpg",
+            "description": "Vélo polyvalent pour déplacements et loisirs.",
+            "origin": "International"
+        }
+    ]
+}
