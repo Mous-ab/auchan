@@ -1,6 +1,11 @@
 export function rendreCatalogue(products, container) {
     if (!container) return;
 
+    if (products.length === 0) {
+        container.innerHTML = `<div class="col-span-full text-center py-8 text-gray-500">Aucun produit trouvé.</div>`;
+        return;
+    }
+
     const cardsHTML = products.map(product => {
         return `
             <div class="bg-white border border-gray-100 rounded-2xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
