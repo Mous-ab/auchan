@@ -6,7 +6,7 @@ export function rendreCatalogue(products, container) {
             <div class="bg-white border border-gray-100 rounded-2xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
                 <div>
                     <div class="w-full h-40 bg-gray-50 rounded-xl mb-3 flex items-center justify-between overflow-hidden p-2">
-                        <img src="${product.image || 'assets/img/placeholder.png'}" alt="${product.description}" class="max-h-full max-w-full object-contain mx-auto">
+                        <img data-id="${product.id}" src="${product.image || 'assets/img/placeholder.png'}" alt="${product.name}" onerror="this.onerror=null; this.src='assets/img/placeholder.png';" class="max-h-full max-w-full object-contain mx-auto">
                     </div>
                     
                     <!-- Catégorie & Titre -->
