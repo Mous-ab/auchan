@@ -1,6 +1,6 @@
-// import { fetchData } from "./api.js";
+import { fetchData } from "./api.js";
 
-// fetchData()
-//     .then(data => {
-//         console.log(data)
-//     });
+fetchData()
+    .then(data => {
+        console.log(data)
+    });
