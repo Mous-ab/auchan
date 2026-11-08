@@ -1,7 +1,7 @@
 import { fetchData } from "./api.js";
 import { rendreCatalogue } from "./ui.js";
 
-const catalogContainer = document.getElementById("#catalog-container");
+const catalogContainer = document.getElementById("catalog-container");
 
 fetchData()
     .then(data => {

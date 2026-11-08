@@ -1,6 +1,6 @@
 export async function fetchData(){
     try {
-        const response = await fetch('data/data.json');
+        const response = await fetch('./data/data.json');
         if (!response.ok) {
             throw new Error("Erreur lors du chargement des données");
         }
@@ -11,5 +11,6 @@ export async function fetchData(){
     
     catch (error) {
         console.error("Erreur", error);
+        throw error;
     }
 }
