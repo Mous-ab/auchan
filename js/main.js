@@ -20,8 +20,7 @@ fetchData()
     });
 
 recherche.addEventListener("input", (event) => {
-    event.preventDefault();
-    const searchTerm = event.target.value.toLowerCase();
+    const searchTerm = event.target.value.toLowerCase().trim();
 
     const filteredProducts = tousProduits.filter(product => 
         product.name.toLowerCase().includes(searchTerm)
