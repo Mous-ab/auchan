@@ -42,6 +42,15 @@
                 <h1 class="text-xl font-bold text-[#14375f]">Nos produits</h1>
             </div>
 
+            <div id="category-filters" class="flex flex-wrap gap-2 mb-4">
+                <button class="category-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-[#14375f] text-white shadow-sm" data-category="all">
+                    Tous
+                </button>
+                <button class="category-btn px-4 py-2 rounded-xl text-xs font-bold transition-all bg-white border border-gray-200 text-gray-600 hover:bg-gray-50" data-category="Épicerie & Alimentation">
+                    Épicerie & Alimentation
+                </button>
+            </div>
+
             <div class="mb-6">
                 <input type="text" id="search-input" placeholder="Rechercher un produit..." class="w-full px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:border-[#14375f] text-sm shadow-sm">
             </div>
@@ -60,7 +69,7 @@
             <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm sticky top-20 space-y-4">
                 <h2 class="font-bold text-base text-[#14375f]">Mon panier</h2>
 
-                <div id="card-drop-zone" class="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center text-gray-400 text-xs bg-gray-50 transition-all">
+                <div id="cart-drop-zone" class="border-2 border-dashed border-gray-300 rounded-xl p-6 text-center text-gray-400 text-xs bg-gray-50 transition-all">
                     Glissez un article au panier
                 </div>
 
