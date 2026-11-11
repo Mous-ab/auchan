@@ -221,3 +221,32 @@ function rendrePanierVisuel() {
         totalElement.textContent = `${total.toFixed(2)} FCFA`;
     }
 }
+
+// État du mode d'affichage
+let currentView = "grid"; // "grid" ou "list"
+
+const gridViewBtn = document.getElementById("grid-view-btn");
+const listViewBtn = document.getElementById("list-view-btn");
+
+if (gridViewBtn && listViewBtn) {
+    gridViewBtn.addEventListener("click", () => changeViewMode("grid"));
+    listViewBtn.addEventListener("click", () => changeViewMode("list"));
+}
+
+function changeViewMode(mode) {
+    currentView = mode;
+
+    if (mode === "grid") {
+        gridViewBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#14375f] text-white shadow-sm";
+        listViewBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-white border border-gray-200 text-gray-600 hover:bg-gray-50";
+        
+        catalogContainer.className = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4";
+    } else {
+        listViewBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#14375f] text-white shadow-sm";
+        gridViewBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-white border border-gray-200 text-gray-600 hover:bg-gray-50";
+        
+        catalogContainer.className = "flex flex-col space-y-3";
+    }
+
+    mettreAJourAffichage();
+}
